@@ -1,0 +1,31 @@
+version: "2"
+services:
+  django:
+    container_name: django_server
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: docker_tutorial_django
+    stdin_open: true
+    tty: true
+    volumes:
+      - ./src:/var/www/src
+    ports:
+      - "8000:8000"
+    links:
+      - db
+  db:
+    container_name: mysql_database
+    image: mysql/mysql-server
+    ports:
+      - "3306:3306"
+    environment:
+      - MYSQL_ROOT_PASSWORD=123456
+    volumes:
+      - ./mysql:/var/lib/mysql
+  phpmyadmin:
+      image: phpmyadmin/phpmyadmin
+      links:
+       - db
+      ports:
+       - "8181:80"
