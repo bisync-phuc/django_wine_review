@@ -2,19 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7d1c7e68-070b-4632-96f6-27ee312f6d55" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/winerama/src/home/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/winerama/mysql/binlog.000004" beforeDir="false" afterPath="$PROJECT_DIR$/winerama/mysql/binlog.000004" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/winerama/mysql/binlog.index" beforeDir="false" afterPath="$PROJECT_DIR$/winerama/mysql/binlog.index" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/winerama/mysql/ib_buffer_pool" beforeDir="false" afterPath="$PROJECT_DIR$/winerama/mysql/ib_buffer_pool" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/winerama/mysql/ib_logfile0" beforeDir="false" afterPath="$PROJECT_DIR$/winerama/mysql/ib_logfile0" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/winerama/mysql/ibdata1" beforeDir="false" afterPath="$PROJECT_DIR$/winerama/mysql/ibdata1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/winerama/mysql/ibtmp1" beforeDir="false" afterPath="$PROJECT_DIR$/winerama/mysql/ibtmp1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/winerama/mysql/mysql.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/winerama/mysql/mysql.ibd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/winerama/mysql/undo_001" beforeDir="false" afterPath="$PROJECT_DIR$/winerama/mysql/undo_001" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/winerama/mysql/undo_002" beforeDir="false" afterPath="$PROJECT_DIR$/winerama/mysql/undo_002" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/winerama/src/winerama/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/winerama/src/winerama/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/winerama/src/winerama/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/winerama/src/winerama/urls.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -61,11 +49,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/winerama/src/winerama/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+            <state relative-caret-position="324">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
               <folding>
                 <element signature="e#617#658#0" expanded="true" />
               </folding>
@@ -112,11 +100,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/winerama/src/winerama/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="531">
-              <caret line="41" column="11" selection-start-line="41" selection-start-column="11" selection-end-line="41" selection-end-column="11" />
+            <state relative-caret-position="602">
+              <caret line="110" lean-forward="true" selection-start-line="110" selection-end-line="110" />
             </state>
           </provider>
         </entry>
@@ -199,10 +187,10 @@
         <option value="$PROJECT_DIR$/winerama/src/reviews/templates/wine_list.html" />
         <option value="$PROJECT_DIR$/winerama/src/reviews/templates/base.html" />
         <option value="$PROJECT_DIR$/winerama/src/reviews/templates/wine_detail.html" />
-        <option value="$PROJECT_DIR$/winerama/src/winerama/settings.py" />
         <option value="$PROJECT_DIR$/winerama/src/home/templates/index.html" />
         <option value="$PROJECT_DIR$/winerama/src/home/views.py" />
         <option value="$PROJECT_DIR$/winerama/src/winerama/urls.py" />
+        <option value="$PROJECT_DIR$/winerama/src/winerama/settings.py" />
       </list>
     </option>
   </component>
@@ -635,13 +623,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/winerama/src/winerama/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="531">
-          <caret line="41" column="11" selection-start-line="41" selection-start-column="11" selection-end-line="41" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/winerama/src/reviews/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -661,11 +642,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/winerama/src/winerama/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+        <state relative-caret-position="324">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
           <folding>
             <element signature="e#617#658#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/winerama/src/winerama/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="602">
+          <caret line="110" lean-forward="true" selection-start-line="110" selection-end-line="110" />
         </state>
       </provider>
     </entry>
